@@ -1,0 +1,134 @@
+.menu li {
+    margin-bottom: 10px
+  }
+  
+  .menu li a {
+    color: #222;
+    cursor: pointer
+  }
+  
+  .menu li a:hover {
+    text-decoration: none;
+    background: #f6f9fb
+  }
+  
+  .menu li .menu-text {
+    position: relative;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 60px;
+    font-size: 14px;
+    color: #808ea0
+  }
+  
+  .menu li span.menu-text {
+    cursor: default
+  }
+  
+  .menu li .addicon {
+    position: absolute;
+    top: 0;
+    left: 28px
+  }
+  
+  .menu li:last-child .menu-sub {
+    border-bottom: none
+  }
+  
+  .menu li .menu-sub {
+    border-bottom: 1px solid #e9eef4;
+    padding-bottom: 8px
+  }
+  
+  .menu li .menu-sub li {
+    margin-bottom: 0
+  }
+  
+  .menu li .menu-sub li.active .menu-sub-text {
+    cursor: default;
+    color: #fff;
+    background: #32b3f4
+  }
+  
+  .menu li .menu-sub .menu-sub-text {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 65px;
+    font-size: 14px
+  }
+  
+  .menu-item-tips {
+    position: relative;
+    z-index: 99
+  }
+  
+  .menu-item-tips .tooltip {
+    display: block;
+    top: 0;
+    left: 185px;
+    width: 280px
+  }
+  
+  .menu-item-tips .tooltip-arrow {
+    float: left;
+    margin: -8px 0 0 -8px;
+    width: 0;
+    height: 0;
+    background: 0 0;
+    border: 7px solid;
+    border-color: transparent #62c7f8 transparent transparent
+  }
+  
+  .menu-item-tips .tooltip-inner {
+    background: #62c7f8;
+    border: none;
+    color: #fff
+  }
+  
+  .menu-item-tips .tooltip-inner p {
+    color: #fff
+  }
+  
+  .menu-item-tips-w {
+    position: relative;
+    z-index: 398
+  }
+  
+  .menu-item-tips-w .tooltip {
+    display: block;
+    top: 0;
+    left: 185px;
+    white-space: nowrap;
+    line-height: 21px
+  }
+  
+  .menu-item-tips-w .tooltip span {
+    padding-right: 36px;
+    color: #444
+  }
+  
+  .menu-item-tips-w .btn {
+    margin-left: 20px
+  }
+  
+  .menu-item-tips-w .tooltip-inner {
+    box-shadow: 0 4px 7px 0 rgba(21,53,89,.11)
+  }
+  
+  .menu-item-tips-w .pop-close {
+    right: 10px;
+    top: 10px;
+    color: #888;
+    font-size: 20px
+  }
+  
+  .menu-item-tips-w .pop-close:hover {
+    background: 0 0
+  }
+  
+  span.menu-item-tips-w .tooltip {
+    top: -4px
+  }
+  
