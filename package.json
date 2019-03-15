@@ -20,7 +20,6 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "@tencent/webpack-sentry-plugin": "^1.0.0",
     "@vue/cli-plugin-babel": "^3.0.0-rc.9",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.9",
     "@vue/cli-plugin-unit-mocha": "^3.0.0-rc.9",
